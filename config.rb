@@ -44,3 +44,6 @@ page '/*.txt', layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+
+set :url, "http://www.example.com"
+activate :my_extension, layout: 'another_layout', header_links: ["https://www.gov.uk", "https://www.another-site.co.uk"]
